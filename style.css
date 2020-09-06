@@ -65,6 +65,7 @@ h1 {
     text-transform: uppercase;
     background-color: transparent;
     border: 1px solid black;
+    outline: none;
     cursor: pointer;
     transition: .2s;
 }
@@ -76,13 +77,15 @@ h1 {
 
 .show {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
 .show h2 {
-    margin-bottom: 4vh;
+    margin: 0 auto 4vh auto;
     max-width: 70vw;
     font-family: 'Kumbh Sans', sans-serif;
     text-transform: uppercase;
