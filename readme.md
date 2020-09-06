@@ -1,4 +1,4 @@
-## DRAW MACHINE
+## DRAWING MACHINE
 ________________
 
 Small training project - just for more practice with class methods and trying sth with setInterval().
