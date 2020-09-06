@@ -29,6 +29,7 @@ class Draw {
     }
 
     letsDraw() {
+        this.message.style.color = 'black';
         let checker = 0;
         if (this.tasksList.length == 0) return alert('No tasks, add something');
         let intervalIndex = setInterval(() => {
